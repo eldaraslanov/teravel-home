@@ -1,0 +1,304 @@
+#homeHeader{
+    .slide1{
+        background-image: url("");
+        height: 600px;
+        background-position: center;
+        transition: all .2s ease;
+        opacity: 1;
+        .slide-item{
+            display: none;
+        }
+    }
+}
+// <!----------
+// HISSE 2 
+// ----------->
+#hisseiki{
+    background: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    .endEnjoy{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+        p{
+            font-size: 20px;
+        }
+        .p1{
+            font-size: 40px;
+        }
+        .tcBorder{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                height: 15px;
+                width: 100%;
+                z-index: -5;
+                left: 0;
+                bottom: 0px;
+                background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+            }
+        }
+
+    }
+}
+// <!----------
+// /HISSE 2 
+// ----------->
+// <!----------- 
+// hisse 3 
+// ------------>
+#hisseUc{
+    .elan{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .psp{
+        padding: 10px 15px;
+    }
+    .maincol{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        &:hover{
+            transform: translateY(-12px);
+            transition: .3s ease;
+            box-shadow: 0 0 15px 3px rgba(24, 24, 24, 0.25);
+        }
+        .qiymet1{
+            position: absolute;
+            width: 55%;
+            height: 30px;
+            background: #8dc645;
+            top: 0%;
+            left: 0%;
+            transform: translate(-5%,-25%);
+            color: white;
+            text-align: center;
+            }
+        .qiymet2{
+            position: absolute;
+            width: 50%;
+            height: 30px;
+            background: #1976bc;
+            top: 10%;
+            left: 0%;
+            transform: translate(-5%,-25%);
+            color: white;
+            text-align: center;
+            del{
+                opacity: 0.5;
+            }
+            }
+            .qiymet3{
+                position: absolute;
+                width: 50%;
+                height: 30px;
+                background: #1976bc;
+                top: 10%;
+                left: 0%;
+                transform: translate(-5%,-25%);
+                color: white;
+                text-align: center;
+        }
+        .qiymet4{
+            position: absolute;
+            width: 50%;
+            height: 30px;
+            background: #8dc645;
+            top: 0%;
+            left: 0%;
+            transform: translate(-5%,-25%);
+            color: white;
+            text-align: center;
+        }
+        .qiymet5{
+            position: absolute;
+            width: 55%;
+            height: 30px;
+            background: #1976bc;
+            top: 10%;
+            left: 0%;
+            transform: translate(-5%,-25%);
+            color: white;
+            text-align: center;
+            del{
+                opacity: 0.5;
+            }
+            }
+            .qiymet6{
+                position: absolute;
+                width: 50%;
+                height: 30px;
+                background: #1976bc;
+                top: 10%;
+                left: 0%;
+                transform: translate(-5%,-25%);
+                color: white;
+                text-align: center;
+             }
+             .qiymet7{
+                position: absolute;
+                width: 50%;
+                height: 30px;
+                background: #8dc645;
+                top: 0%;
+                left: 0%;
+                transform: translate(-5%,-25%);
+                color: white;
+                text-align: center;
+            }
+            .qiymet8{
+                position: absolute;
+                width: 55%;
+                height: 30px;
+                background: #1976bc;
+                top: 10%;
+                left: 0%;
+                transform: translate(-5%,-25%);
+                color: white;
+                text-align: center;
+                del{
+                    opacity: 0.5;
+                }
+                }
+
+        }
+    }
+// <!----------- 
+    // /hisse 3 
+// ------------>
+// <!-----------
+// hisse 4
+// ----------->
+#hissedord{
+    background: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    .endEnjoy{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+        p{
+            font-size: 20px;
+        }
+        .p1{
+            font-size: 40px;
+        }
+        .tcBorder{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                height: 15px;
+                width: 100%;
+                z-index: -5;
+                left: 0;
+                bottom: 0px;
+                background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+            }
+        }
+
+    }
+}
+// <!------
+// /hisse 4
+// ---------->
+// <!------
+// hisse 5
+// ---------->
+#hissebes{
+    .hmainimg{
+        margin-left: 15px;
+        margin-right: 15px;
+         img{
+          width: 100%;
+          height: 300px;
+          overflow: hidden;
+          margin-top: 15px 
+         }
+         .mainimgdiv{
+             padding: 30px;
+             overflow: hidden;
+             text-decoration: none;
+             width: 100%;
+             height: 300px;
+             margin-top: 15px;
+             background: cornsilk;
+         }
+         .mainimgdi{
+            padding: 30px;
+            overflow: hidden;
+            text-decoration: none;
+            width: 100%;
+            height: 300px;
+            margin-top: 15px;
+            background: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+            color: white;
+         }
+     }
+}
+// <!------
+// /hisse 5
+// ---------->
+#hissealti{
+    background: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    .hisealti{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+        .p1{
+            font-size: 60px;
+        }
+        .tcBorder{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                height: 15px;
+                width: 100%;
+                z-index: -5;
+                left: 0;
+                bottom: 0px;
+                background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+            }
+        }
+
+    }
+}
